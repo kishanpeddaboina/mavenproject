@@ -18,17 +18,17 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>project2</groupId>
-    <artifactId>devops</artifactId>
+    <groupId>mavenproject</groupId>
+    <artifactId>mavenproject</artifactId>
     <packaging>war</packaging>
 
-    <name>devops</name>
-    <description>The devops WAR bundle</description>
+    <name>kishan</name>
+    <description>The kishan WAR bundle</description>
     <version>1.0-SNAPSHOT</version>
 
 
     <properties>
-        <marmotta.home>${java.io.tmpdir}${file.separator}devops</marmotta.home>
+        <marmotta.home>${java.io.tmpdir}${file.separator}kishan</marmotta.home>
         <marmotta.context>/</marmotta.context>
         <marmotta.port>8080</marmotta.port>
         <marmotta.backend>kiwi</marmotta.backend>
