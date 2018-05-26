@@ -164,7 +164,7 @@
                             <goal>wget</goal>
                         </goals>
                         <configuration>
-                            <url>http://localhost:${marmotta.port}${marmotta.context}index.jsp</url>
+                            <url>//http://192.168.56.101:${marmotta.port}${marmotta.context}index.jsp</url>
                             <outputFileName>index.html</outputFileName>
                             <outputDirectory>${project.build.directory}/it/</outputDirectory>
                             <skipCache>true</skipCache>
@@ -177,7 +177,7 @@
                             <goal>wget</goal>
                         </goals>
                         <configuration>
-                            <url>http://localhost:${marmotta.port}${marmotta.context}config/data/kiwi.version</url>
+                            <url>http://192.168.56.101:${marmotta.port}${marmotta.context}config/data/kiwi.version</url>
                             <outputFileName>kiwi-version.json</outputFileName>
                             <outputDirectory>${project.build.directory}/it/</outputDirectory>
                             <skipCache>true</skipCache>
