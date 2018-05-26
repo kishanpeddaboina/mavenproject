@@ -29,7 +29,7 @@
 
     <logger name="org.apache.marmotta.platform.reasoner" level="INFO" />
 
-    <logger name="project2" level="DEBUG" />
+    <logger name="mavenproject" level="DEBUG" />
 
     <root level="info">
         <appender-ref ref="STDOUT" />
