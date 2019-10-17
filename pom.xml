@@ -29,7 +29,7 @@
               <classpathPrefix>lib/</classpathPrefix>
               <mainClass>com.mycompany.app.App</mainClass>
             </manifest>
-            <!--Your kishan comment-->
+            <!--Your kishan humana comment-->
           </archive>
         </configuration>
       </plugin>
