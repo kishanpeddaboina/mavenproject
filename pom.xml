@@ -29,6 +29,7 @@
               <classpathPrefix>lib/</classpathPrefix>
               <mainClass>com.mycompany.app.App</mainClass>
             </manifest>
+            <!--Your comment-->
           </archive>
         </configuration>
       </plugin>
